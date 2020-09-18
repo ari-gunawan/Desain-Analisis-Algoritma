@@ -1,0 +1,36 @@
+Algoritma Konversi Satuan Berat
+Konversikan Satuan Berat dari G ke Kg, Hg, Dag, Dg, Cg dan Mg. Rumus konversi berat Kg (dikalikan dengan 0,001), Hg (dikalikan dengan 0,01), Dag (dikalikan dengan 0,1), Dg (dikalikan dengan 10), Cg (dikalikan dengan 100), Mg (dikalikan dengan 1000).
+
+Deskripsi :
+Masukkan Berat.
+Baca G.
+G sama dengan Berat dikalikan dengan 1.
+Baca Kg, Hg, Dag, Dg, Cg dan Mg.
+Kg sama dengan G dikalikan dengan 0,001.
+Hg sama dengan G dikalikan dengan 0,01.
+Dag sama dengan G dikalikan dengan 0,1.
+Dg sama dengan G dikalikan dengan 10.
+Cg sam dengan G dikalikan dengan 100.
+Mg sama dengan G dikalikan dengan 1000.
+Keluarkan sebagai Output Kg, Hg, Dag, G, Dg, Cg dan Mg.
+PSEUDOCODE
+
+Algoritma Konversi Satuan Berat
+{     Dibaca Berat dari piranti masukan. Berat dalam satuan G. Carilah Satuan Berat Kg, Hg, Dag, G, Dg, Cg dan Mg.     }
+
+Deklarasi :
+Berat : Interger (Variabel bantu untuk nilai input sama dengan satuan gram).
+Kg, Hg, Dag, G, Dg, Cg dan Mg. : Interger (Variabel bantu untuk Konversi Satuan Berat).  
+
+Deskripsi :
+Input (Berat)
+Read (G)
+G = Berat * 1
+Read (Kg, Hg, Dag, Dg, Cg, Mg)
+Kg = G * 0,001
+Hg = G * 0,01
+Dag = G * 0,1
+Dg = G * 10
+Cg = G * 100
+Mg = G * 1000
+Write (Kg, Hg, Dag, G, Dg, Cg, Mg)
